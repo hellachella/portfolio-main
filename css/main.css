@@ -39,6 +39,10 @@ html {
 	background-color: rgba(218,165,32,0.5);
 }
 
+.black {
+		background-color: rgba(0,0,0,0.5);
+}
+
 .float-left {
 	float: left;
 }
@@ -92,13 +96,12 @@ header a:hover, .nav-upper a:hover {
 
 .hero {
 	height: 24em;
-	background-image: url(../placeholder-img/couch.jpg);
-	background-size: cover !important;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	background-position: center;
+	background-image: url(../images/woodie.jpg);
+	-webkit-background-size: 130%;
+  -moz-background-size: 130%;
+  -o-background-size: 130%;
+  background-size: 130%;
+	background-position: top;
 	background-repeat: no-repeat;
 
 }
@@ -106,7 +109,7 @@ header a:hover, .nav-upper a:hover {
 .header-content {
 	width: 100%;
 	position: absolute;
-	bottom: 35.5%;
+	bottom: 20%;
 	left: 0;
 	color: #e2e2e2;
 
@@ -240,7 +243,13 @@ footer ul li {
 }
 
 @media only screen and (min-width: 38em) {
-
+	.hero {
+	-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+	background-position: top;
+}
 }
 
 @media only screen and (min-width: 60em) {
