@@ -46,8 +46,18 @@ header {
 header a {
 	text-decoration: none;
 	color: #e2e2e2;
+	background: rgba(0,0,0,0.5);
+	transition: 200ms ease;
+	border-radius: 0px;
 }
 
+header a:hover {
+	text-shadow: 2px -2px rgba(255,255,255,0.5);
+	color: rgba(255,255,255,0.8);
+	transform: rotate(5deg);
+	background: rgba(0,0,0,0.4);
+	padding-top: 10px;
+}
 
 .hero {
 	height: 24em;
@@ -80,7 +90,7 @@ header a {
 
 .nav-lower {
 		position: absolute;
-		bottom: 0;
+		bottom: .5em;
 		left: 0;
 		color: #e2e2e2;
 		letter-spacing: .1em;
