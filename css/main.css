@@ -30,9 +30,13 @@ html {
 .white {
 	background-color: white;
 }
+
+
+
 .float-left {
 	float: left;
 }
+
 .img-flex {
   display: block;
   width: 100%;
@@ -43,7 +47,21 @@ body {
 }
 
 .round-corner {
-	border-radius: 3px;
+	border-radius: 2px;
+}
+
+.card h3{
+	line-height: .2;
+}
+
+.card a {
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px dotted rgba(0,0,0,0.2);
+}
+
+.card a:hover {
+	border-bottom: 1px dotted black;
 }
 
 header {
