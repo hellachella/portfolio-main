@@ -27,6 +27,9 @@ html {
 	background-color: rgba(255,0,0,.5)
 }
 
+.white {
+	background-color: white;
+}
 .float-left {
 	float: left;
 }
@@ -37,6 +40,10 @@ html {
 
 body {
 	margin: 0;
+}
+
+.round-corner {
+	border-radius: 3px;
 }
 
 header {
