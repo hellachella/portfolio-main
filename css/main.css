@@ -43,7 +43,7 @@ header {
 	position: relative;
 }
 
-header a {
+header a, .nav-upper a {
 	text-decoration: none;
 	color: #e2e2e2;
 	background: rgba(0,0,0,0.5);
@@ -51,7 +51,7 @@ header a {
 	border-radius: 0px;
 }
 
-header a:hover {
+header a:hover, .nav-upper a:hover {
 	text-shadow: 2px -2px rgba(255,255,255,0.5);
 	color: rgba(255,255,255,0.8);
 	transform: rotate(5deg);
@@ -96,14 +96,19 @@ header a:hover {
 		letter-spacing: .1em;
 }
 
-.nav-lower ul{
+.nav-lower ul, .nav-upper ul{
 	text-decoration: none;
 	margin-bottom: 0;
 
 }
 
-.nav-lower li {
+.nav-lower li, .nav-upper li {
 	display: inline;
+}
+
+.nav-upper {
+		color: #e2e2e2;
+		letter-spacing: .1em;
 }
 
 .feature-main {
@@ -112,6 +117,7 @@ header a:hover {
 	height: 12em;
 	transition: all 900ms ease;
 }
+
 .img-1-m {
 	background-color: #c4c4c4;
 }
