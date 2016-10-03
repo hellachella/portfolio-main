@@ -161,6 +161,9 @@ header a:hover, .nav-upper a:hover {
 		letter-spacing: .1em;
 }
 
+.main-body {
+	background-color: #000;
+}
 .feature-main {
 	margin: 0;
 	float: left;
@@ -170,33 +173,37 @@ header a:hover, .nav-upper a:hover {
 .img-1-m {
 	background-color: #c4c4c4;
 	background-image: url(../images/cards/card-image-animation.jpg);
-	background-size: 100%;
+	background-size: cover;
 	background-position: top left;
 	transition: 1000ms ease;
-	opacity: 1;
+	opacity: .5;
+	background-repeat: no-repeat;
 }
 
 .img-1-m:hover {
 	background-color: #000;
-		background-size: 115%;
-		background-position: bottom left;
+	background-size: cover;
+	opacity: 1;
+	background-position: bottom right;
 
 }
 
 .img-2-m {
-	background-color: #a1a1a1;
-		background-color: #c4c4c4;
+
 	background-image: url(../images/cards/card-image-aa.jpg);
-	background-size: 110%;
+	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 	transition: 1000ms;
-	opacity: 1;
+	opacity: .5;
+
 }
 
 .img-2-m:hover {
-	background-color: #000;
 		background-color: #000;
 		background-position: bottom;
+		opacity: 1;
+
 
 
 }
