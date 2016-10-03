@@ -5,6 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 @import 'https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Pragati+Narrow';
 
 html {
   box-sizing: border-box;
@@ -13,11 +14,16 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Open Sans', sans-serif;
+ font-family: 'Pragati Narrow', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.red {
+	background-color: red;
+	opacity: .8;
 }
 
 .img-flex {
@@ -34,29 +40,39 @@ header {
 
 }
 
+.hero {
+	height: 24em;
+	background-image: url(../placeholder-img/couch.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat
+}
+
 .header-content {
 	width: 100%;
 	position: absolute;
-	bottom: 35%;
+	bottom: 40%;
 	left: 0;
+		color: #fff;
  }
 
 .h1-index {
-	color: #fff;
+
 	font-family: 'Gentium Book Basic', serif;
-	transform: rotate(-10deg);
 
 }
 
 .nav-lower {
 		position: absolute;
 		bottom: 0;
+		left: 0;
 		color: #fff;
+		letter-spacing: .1em;
 }
 
 .nav-lower ul{
 	text-decoration: none;
-	padding: 0;
+	margin-bottom: 0;
 
 }
 
