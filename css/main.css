@@ -35,6 +35,10 @@ html {
 	background-color: #e2e2e2;
 }
 
+.yellow {
+	background-color: goldenrod;
+}
+
 .float-left {
 	float: left;
 }
@@ -130,6 +134,20 @@ header a:hover, .nav-upper a:hover {
 .nav-lower li, .nav-upper li {
 	display: inline;
 }
+
+.intro {
+	list-style-type: none
+}
+
+.intro li {
+	display: inline;
+}
+
+.profile-img {
+		-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
 
 .nav-upper {
 		color: #e2e2e2;
