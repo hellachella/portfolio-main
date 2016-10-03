@@ -31,7 +31,9 @@ html {
 	background-color: white;
 }
 
-
+.grey {
+	background-color: #e2e2e2;
+}
 
 .float-left {
 	float: left;
