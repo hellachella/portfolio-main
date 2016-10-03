@@ -138,6 +138,10 @@ footer ul li {
 	.hero {
 		height: 30em;
 	}
+
+	.main-unit-2 {
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 25em) {
