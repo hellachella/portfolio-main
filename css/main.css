@@ -41,9 +41,12 @@ body {
 
 header {
 	position: relative;
-
 }
 
+header a {
+	text-decoration: none;
+	color: #e2e2e2;
+}
 .hero {
 	height: 24em;
 	background-image: url(../placeholder-img/couch.jpg);
