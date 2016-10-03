@@ -187,16 +187,17 @@ header a:hover, .nav-upper a:hover {
 	background-color: #a1a1a1;
 		background-color: #c4c4c4;
 	background-image: url(../images/cards/card-image-aa.jpg);
-	background-size: 100%;
+	background-size: 110%;
 	background-position: center;
-	transition: 1000ms ease;
+	transition: 1000ms;
 	opacity: 1;
 }
 
 .img-2-m:hover {
 	background-color: #000;
 		background-color: #000;
-		background-size: 110%;
+		background-position: bottom;
+
 
 }
 
