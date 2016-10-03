@@ -47,6 +47,8 @@ header a {
 	text-decoration: none;
 	color: #e2e2e2;
 }
+
+
 .hero {
 	height: 24em;
 	background-image: url(../placeholder-img/couch.jpg);
@@ -98,29 +100,54 @@ header a {
 	margin: 0;
 	float: left;
 	height: 12em;
+	transition: all 900ms ease;
 }
 .img-1-m {
 	background-color: #c4c4c4;
+}
+
+.img-1-m:hover {
+	background-color: #000;
 }
 
 .img-2-m {
 	background-color: #a1a1a1;
 }
 
+.img-2-m:hover {
+	background-color: #000;
+}
+
 .img-3-m {
 	background-color: #b1b1b1;
+}
+
+.img-3-m:hover {
+	background-color: #000;
 }
 
 .img-4-m {
 	background-color: lightgrey;
 }
 
+.img-4-m:hover {
+	background-color: #000;
+}
+
 .img-5-m {
 	background-color: grey;
 }
 
+.img-5-m:hover {
+	background-color: #000;
+}
+
 .img-6-m {
 	background-color: #c1c1c1;
+}
+
+.img-6-m:hover {
+	background-color: #000;
 }
 
 footer {
