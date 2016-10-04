@@ -107,7 +107,7 @@ color: #fff;
 .teeth img {
 	height: 100px;
 	position: absolute;
-	bottom: -1em;
+	bottom: 30;
 	right: 45%;
 }
 
@@ -133,11 +133,6 @@ body {
 .round-corner {
 	border-radius: 2px;
 
-
-}
-
-.card h3{
-height: 4em;
 }
 
 .card img {
@@ -158,6 +153,11 @@ height: 4em;
 	border-bottom: 1px dotted black;
 }
 
+.card hr {
+	width: 10%;
+	color: #fff;
+}
+
 header {
 	position: relative;
 	background-color: #000;
@@ -167,17 +167,14 @@ header {
 header a, .nav-upper a {
 	text-decoration: none;
 	color: #e2e2e2;
-	background: rgba(0,0,0,0.5);
 	transition: 200ms ease;
 	border-radius: 0px;
 }
 
 header a:hover, .nav-upper a:hover {
 	text-shadow: 2px -2px rgba(255,255,255,0.5);
-	color: rgba(255,255,255,0.8);
-	transform: rotate(5deg);
-	background: rgba(255,0,0,0.4);
-	padding-top: 10px;
+	color: rgba(50,50,50,0.8);
+
 }
 
 .hero {
