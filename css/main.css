@@ -7,6 +7,8 @@
 @import 'https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans';
 @import 'https://fonts.googleapis.com/css?family=Pragati+Narrow';
 @import 'https://fonts.googleapis.com/css?family=Coustard:900';
+@import 'https://fonts.googleapis.com/css?family=Old+Standard+TT|Oswald:700';
+@import 'https://fonts.googleapis.com/css?family=Lora';
 
 html {
   box-sizing: border-box;
@@ -15,7 +17,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
- font-family: 'Pragati Narrow', sans-serif;
+ 	font-family: 'Pragati Narrow', sans-serif;
 
 }
 
@@ -23,6 +25,21 @@ html {
   box-sizing: inherit;
 }
 
+.sans {
+		font-family: 'Pragati Narrow', sans-serif;
+}
+
+.serif {
+		font-family: 'Lora', serif;
+}
+
+.border-l {
+		border-left: 1px solid #e2e2e2;
+		padding-left: .5em;
+}
+.main-body {
+	padding: 1em;
+}
 .red {
 	background-color: rgba(255,0,0,.5)
 }
@@ -43,6 +60,42 @@ html {
 		background-color: rgba(0,0,0,0.5);
 }
 
+.text-grey {
+	color: #505050;
+}
+
+.divider {
+	width: 100%;
+	height: 1em;
+	background-color: #fff
+}
+
+.banner {
+	position: relative;
+	overflow: hidden;
+}
+
+.banner-content {
+	width: 100%;
+	position: absolute;
+	bottom:0;
+	left: 0;
+}
+
+.banner h1 {
+
+color: #fff;
+}
+
+.oiaf p {
+	font-family: 'Lora', serif;
+}
+
+.oiaf h3 {
+	border-top: 1px solid #e2e2e2;
+}
+
+
 .float-left {
 	float: left;
 }
@@ -58,12 +111,20 @@ body {
 
 .round-corner {
 	border-radius: 2px;
+
+
 }
-
-
 
 .card h3{
 height: 4em;
+}
+
+.card img {
+	filter: grayscale(50%);
+	transition: 200ms ease;
+}
+.card img:hover {
+	filter: grayscale(0%);
 }
 
 .card a {
@@ -79,6 +140,7 @@ height: 4em;
 header {
 	position: relative;
 	background-color: #000;
+
 }
 
 header a, .nav-upper a {
@@ -93,21 +155,19 @@ header a:hover, .nav-upper a:hover {
 	text-shadow: 2px -2px rgba(255,255,255,0.5);
 	color: rgba(255,255,255,0.8);
 	transform: rotate(5deg);
-	background: rgba(0,0,0,0.4);
+	background: rgba(255,0,0,0.4);
 	padding-top: 10px;
 }
 
 .hero {
-	height: 24em;
-	background-image: url(../images/cards/card-image-ph.jpg);
+	height: 20em;
+	background-image: url(../images/woodie-bw.jpg);
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
-
-
 }
 
 .header-content {
@@ -115,7 +175,8 @@ header a:hover, .nav-upper a:hover {
 	position: absolute;
 	bottom: 20%;
 	left: 0;
-
+		color: #fff;
+			 font-family: 'Lora', serif;
  }
 
 .h1-index {
@@ -161,30 +222,57 @@ header a:hover, .nav-upper a:hover {
 		letter-spacing: .1em;
 }
 
-.main-body {
-	background-color: #000;
-}
+
 .feature-main {
 	margin: 0;
 	float: left;
 	height: 12em;
+	font-weight: bolder;
+	overflow: hidden;
+	filter: grayscale(75%);
 }
 
+.feature-main:hover {
+	filter: grayscale(0%);
+}
+
+.feature-main a {
+	text-decoration: none;
+	color: white;
+}
+
+.feature-main a:hover {
+	text-decoration: underline;
+}
+
+.feature-text {
+	opacity: 0;
+	transition: 200ms ease;
+}
+
+.show {
+	opacity: 1;
+	background: rgba(0,0,0,0.2);
+	height: 10em;
+	color: #fff;
+
+}
+
+
 .img-1-m {
-	background-color: #c4c4c4;
+
 	background-image: url(../images/cards/card-image-animation.jpg);
 	background-size: cover;
 	background-position: top left;
-	transition: 1000ms ease;
-	opacity: .5;
+	transition: 1000ms ease-in-out;
 	background-repeat: no-repeat;
 }
 
 .img-1-m:hover {
 	background-color: #000;
 	background-size: cover;
-	opacity: 1;
 	background-position: bottom right;
+
 
 }
 
@@ -192,20 +280,17 @@ header a:hover, .nav-upper a:hover {
 
 	background-image: url(../images/cards/card-image-aa.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: top left;
 	background-repeat: no-repeat;
 	transition: 1000ms;
-	opacity: .5;
+
 
 }
 
 .img-2-m:hover {
 		background-color: #000;
-		background-position: bottom;
+		background-position: top right;
 		opacity: 1;
-
-
-
 }
 
 .img-3-m {
@@ -254,7 +339,7 @@ footer ul li {
 	display: inline;
 }
 
-
+/* everything before the first breakpoint */
 @media only screen and (max-width: 25em) {
 	.hero {
 		height: 30em;
@@ -263,22 +348,31 @@ footer ul li {
 	.main-unit-2 {
 		display: none;
 	}
+
+.card img {
+	filter: none
 }
+
+.banner h1 {
+  font-size: 1.2000rem;
+  line-height: 1.6250rem;
+}
+}
+
 
 @media only screen and (min-width: 25em) {
 	.hero {
-		height: 38em;
+		height: 24em;
 	}
 
 }
+
 
 @media only screen and (min-width: 38em) {
 
 .header-content {
 	bottom: 40%;
  }
-
-
 
 @media only screen and (min-width: 60em) {
 
