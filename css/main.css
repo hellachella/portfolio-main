@@ -67,7 +67,8 @@ html {
 .divider {
 	width: 100%;
 	height: 1em;
-	background-color: #fff
+	background-color: #fff;
+	clear: both;
 }
 
 .banner {
@@ -93,6 +94,26 @@ color: #fff;
 
 .oiaf h3 {
 	border-top: 1px solid #e2e2e2;
+}
+
+.teeth {
+	width: 100%;
+	height: 5em;
+	clear: both;
+	position: relative;
+
+}
+
+.teeth img {
+	height: 100px;
+	position: absolute;
+	bottom: -1em;
+	right: 45%;
+}
+
+.teeth img:hover {
+	transform: rotate(360deg);
+	transition: 900ms ease;
 }
 
 
@@ -373,6 +394,8 @@ footer ul li {
 .header-content {
 	bottom: 40%;
  }
+
+
 
 @media only screen and (min-width: 60em) {
 
