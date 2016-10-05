@@ -149,7 +149,7 @@ body {
 
 .card img {
 
-	transition: 200ms ease;
+	transition: 200ms;
 	opacity: .7;
 }
 .card img:hover {
