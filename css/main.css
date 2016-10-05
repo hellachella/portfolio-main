@@ -38,7 +38,7 @@ html {
 		padding-left: .5em;
 }
 .main-body {
-	padding: 1em;
+	padding: 0 1em;
 }
 .red {
 	background-color: rgba(255,0,0,.5)
