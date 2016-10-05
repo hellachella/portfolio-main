@@ -189,13 +189,13 @@ header a:hover, .nav-upper a:hover {
 }
 
 .hero {
-	height: 20em;
-	background-image: url(../images/banner.jpg);
+	height: 24em;
+	background-image: url(../images/portfolio-banner2.jpg);
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	background-position: bottom left;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 
@@ -391,7 +391,7 @@ footer ul li {
 
 @media only screen and (min-width: 25em) {
 	.hero {
-		height: 24em;
+		height: 30em;
 	}
 
 }
