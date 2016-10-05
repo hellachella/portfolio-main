@@ -190,12 +190,12 @@ header a:hover, .nav-upper a:hover {
 
 .hero {
 	height: 20em;
-	background-image: url(../images/woodie-bw.jpg);
+	background-image: url(../images/banner.jpg);
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	background-position: top;
+	background-position: bottom left;
 	background-repeat: no-repeat;
 }
 
