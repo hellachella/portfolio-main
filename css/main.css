@@ -50,7 +50,7 @@ html {
 }
 
 .grey {
-	background-color: #e2e2e2;
+	background-color: #f2f2f2;
 }
 
 .yellow {
@@ -148,11 +148,13 @@ body {
 }
 
 .card img {
-	filter: grayscale(50%);
+
 	transition: 200ms ease;
+	opacity: .7;
 }
 .card img:hover {
-	filter: grayscale(0%);
+
+	opacity: 1;
 }
 
 .card a {
