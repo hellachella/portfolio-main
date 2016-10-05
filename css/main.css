@@ -37,6 +37,7 @@ html {
 		border-left: 1px solid #e2e2e2;
 		padding-left: .5em;
 }
+
 .main-body {
 	padding: 0 1em;
 }
@@ -204,8 +205,8 @@ header a:hover, .nav-upper a:hover {
 	position: absolute;
 	bottom: 20%;
 	left: 0;
-		color: #fff;
-			 font-family: 'Lora', serif;
+	color: #fff;
+	font-family: 'Lora', serif;
  }
 
 .h1-index {
