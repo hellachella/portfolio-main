@@ -84,7 +84,6 @@ html {
 }
 
 .banner h1 {
-
 color: #fff;
 }
 
@@ -94,6 +93,18 @@ color: #fff;
 
 .oiaf h3, .quotebook h3{
 	border-top: 1px solid #e2e2e2;
+}
+
+.arrow-r {
+position: absolute;
+right: 0;
+left: auto;
+bottom: auto;
+top: auto;
+}
+
+.arrow-r img{
+	max-width: 25px;
 }
 
 .teeth {
