@@ -150,11 +150,13 @@ body {
 .card img {
 
 	transition: 200ms;
-	opacity: .7;
+
+	padding: 0em;
 }
 .card img:hover {
 
-	opacity: 1;
+
+		padding: .25em;
 }
 
 .card a {
