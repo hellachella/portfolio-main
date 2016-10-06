@@ -147,6 +147,11 @@ body {
 
 }
 
+.card {
+	display: block;
+
+}
+
 .card img {
 
 	transition: 200ms;
