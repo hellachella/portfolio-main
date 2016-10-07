@@ -77,11 +77,9 @@ html {
 	overflow: hidden;
 }
 
-.banner-content {
-	width: 100%;
+.banner h1 {
 	position: absolute;
-	bottom:0;
-	left: 0;
+	bottom: 0;
 }
 
 .banner h1 {
@@ -192,9 +190,13 @@ header a, .nav-upper a {
 	border-radius: 0px;
 }
 
+.nav-upper a{
+	color: #505050;
+}
+
 header a:hover, .nav-upper a:hover {
 	text-shadow: 2px -2px rgba(255,255,255,0.5);
-	color: rgba(50,50,50,0.8);
+
 
 }
 
@@ -209,19 +211,8 @@ header a:hover, .nav-upper a:hover {
 	background-repeat: no-repeat;
 }
 
-.header-content {
-	width: 100%;
-	position: absolute;
-	bottom: 20%;
-	left: 0;
-	color: #fff;
-	font-family: 'Lora', serif;
- }
 
-.h1-index {
 
-	letter-spacing: 1px;
-}
 
 .nav-lower {
 		position: absolute;
@@ -257,7 +248,7 @@ header a:hover, .nav-upper a:hover {
 
 
 .nav-upper {
-		color: #e2e2e2;
+		color: #d2d2d2;
 		letter-spacing: .1em;
 }
 
