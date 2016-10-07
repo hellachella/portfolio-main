@@ -33,10 +33,7 @@ html {
 		font-family: 'Lora', serif;
 }
 
-.border-l {
-		border-left: 1px solid #e2e2e2;
-		padding-left: .5em;
-}
+
 
 .main-body {
 	padding: 0 1em;
@@ -401,6 +398,8 @@ footer ul li {
   font-size: 1.2000rem;
   line-height: 1.6250rem;
 }
+
+
 }
 
 
@@ -408,6 +407,9 @@ footer ul li {
 	.hero {
 		height: 30em;
 	}
+
+
+
 
 }
 
@@ -418,6 +420,10 @@ footer ul li {
 	bottom: 40%;
  }
 
+.border-l {
+		border-left: 1px solid #e2e2e2;
+		padding-left: .5em;
+}
 
 
 @media only screen and (min-width: 60em) {
