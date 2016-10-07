@@ -165,16 +165,30 @@ body {
 .card a {
 	text-decoration: none;
 	color: #000;
-	border-bottom: 1px dotted rgba(0,0,0,0.2);
 }
 
 .card a:hover {
-	border-bottom: 1px dotted black;
+	border-bottom: none;
+	color: pink;
 }
+
+p a, blockquote a {
+	color: red;
+	text-decoration: none;
+}
+
+p a:hover, blockquote a:hover{
+	border-bottom: 1px dashed grey;
+}
+
 
 .card hr {
 	width: 10%;
 	color: #505050;
+}
+
+.card h2 {
+
 }
 
 header {
