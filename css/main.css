@@ -30,8 +30,11 @@ html {
 	background-color: red;
 }
 
-.text-wrap-s {
-	width: 30%;
+.img-s {
+	width: 60%;
+	float: left;
+	padding: 0 1em 1em 0;
+	margin: 0;
 }
 
 .sans {
@@ -436,6 +439,14 @@ footer ul li {
 		height: 30em;
 	}
 
+.img-s {
+	width: 100%;
+	float: left;
+	padding: 0 1em 1em 0;
+	margin: 0;
+}
+
+
 .border-l {
 		border-left: 1px solid #e2e2e2;
 		padding-left: .5em;
@@ -450,6 +461,12 @@ footer ul li {
 	bottom: 40%;
  }
 
+.img-s {
+	width: 60%;
+	float: left;
+	padding: 0 1em .5em 0;
+	margin: 0;
+}
 
 .banner h1 {
 	visibility: visible;
