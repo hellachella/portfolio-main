@@ -428,7 +428,7 @@ dl dd, dl dt{
 
 dt{
 	font-weight: bold;
-	padding:.5em;
+	padding:.55em;
 }
 
 dd {
@@ -443,6 +443,10 @@ dd {
 		height: 30em;
 	}
 
+.border-l {
+		border-left: 1px solid #e2e2e2;
+		padding-left: .5em;
+}
 
 }
 
@@ -453,10 +457,6 @@ dd {
 	bottom: 40%;
  }
 
-.border-l {
-		border-left: 1px solid #e2e2e2;
-		padding-left: .5em;
-}
 
 .banner h1 {
 	visibility: visible;
