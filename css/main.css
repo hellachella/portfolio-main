@@ -278,11 +278,6 @@ header a:hover, .nav-upper a:hover {
 	display: inline;
 }
 
-.profile-img {
-		-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-}
-
 
 .nav-upper {
 		color: #d2d2d2;
