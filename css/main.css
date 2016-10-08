@@ -25,6 +25,10 @@ html {
   box-sizing: inherit;
 }
 
+.current {
+	background-color: red;
+}
+
 .sans {
 		font-family: 'Pragati Narrow', sans-serif;
 }

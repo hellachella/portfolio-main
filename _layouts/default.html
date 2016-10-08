@@ -7,10 +7,10 @@
     Chelle — Portfolio
   </title>
   <meta content="width=device-width,initial-scale=1" name="viewport">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/module.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/module.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
   <link href='favicon.ico' rel='shortcut icon' type='image/x-icon'>
@@ -27,7 +27,7 @@
     <div class="kilo island-1-2 text-right text-upper unit xs-1-2 s-2-3 m-1-2 l-1-2">
       <ul class="pad-0">
         <li class="gutter-1-4">
-          <a href="{{site.baseurl}}/about.html">about &mdash;</a>
+          <a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}current{% endif %}">about &mdash;</a>
         </li>
         <li class="gutter-1-4">
           <a href="{{site.baseurl}}/index.html">home &mdash;</a>
