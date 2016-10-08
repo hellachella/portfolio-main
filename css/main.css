@@ -27,7 +27,8 @@ html {
 }
 
 .current {
-	background-color: red;
+	background-color: darkred;
+	color:#fff;
 }
 
 .img-s {
