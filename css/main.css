@@ -27,7 +27,7 @@ html {
 }
 
 .current {
-	background-color: darkred;
+	background-color: #e2e2e2;
 	color:#fff;
 }
 
@@ -232,7 +232,8 @@ header a, .nav-upper a {
 	color: #505050;
 }
 
-header a:hover, .nav-upper a:hover {
+
+header a:hover, {
 	text-shadow: 2px -2px rgba(255,255,255,0.5);
 
 
