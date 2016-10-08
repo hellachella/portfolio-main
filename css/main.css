@@ -89,6 +89,9 @@ h1 {
 .banner h1 {
 	position: absolute;
 	bottom: 0;
+
+ display: none;
+
 }
 
 .banner h1 {
@@ -412,6 +415,7 @@ footer ul li {
 .banner h1 {
   font-size: 1.2000rem;
   line-height: 1.6250rem;
+
 }
 
 
@@ -455,6 +459,9 @@ dd {
 		padding-left: .5em;
 }
 
+.banner h1 {
+	display: block;
+}
 
 @media only screen and (min-width: 60em) {
 
