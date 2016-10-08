@@ -20,9 +20,7 @@ html {
  	font-family: 'Pragati Narrow', sans-serif;
 
 }
-dd dt {
-	display: inline-block;
-}
+
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -45,6 +43,9 @@ h1 {
 	width: 100%;
 }
 
+.oiaf ul{
+	list-style-type: none
+}
 
 .main-body {
 	padding: 0 1em;
@@ -422,18 +423,6 @@ footer ul li {
 	text-align: center;
 }
 
-dl dd, dl dt{
-	display: inline;
-}
-
-dt{
-	font-weight: bold;
-	padding:.55em;
-}
-
-dd {
-	font-weight: light;
-}
 
 }
 
