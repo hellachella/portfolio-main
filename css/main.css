@@ -33,7 +33,7 @@ html {
 .img-s {
 	width: 60%;
 	float: left;
-	padding: 0 1em 1em 0;
+	padding: 0 1em 0 0;
 	margin: 0;
 }
 
@@ -462,6 +462,7 @@ footer ul li {
 		border-left: 1px solid #e2e2e2;
 		padding-left: .5em;
 }
+
 .img-s {
 	width: 60%;
 	float: left;
