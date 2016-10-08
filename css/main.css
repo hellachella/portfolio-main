@@ -269,6 +269,9 @@ header a:hover, .nav-upper a:hover {
 	display: inline;
 }
 
+article p{
+	font-family: "Lora", serif;
+}
 
 .intro {
 	list-style-type: none
@@ -278,6 +281,9 @@ header a:hover, .nav-upper a:hover {
 	display: inline;
 }
 
+.text-fade {
+	opacity: .1;
+}
 
 .nav-upper {
 		color: #d2d2d2;
