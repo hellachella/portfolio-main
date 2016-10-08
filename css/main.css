@@ -30,6 +30,10 @@ html {
 	background-color: red;
 }
 
+.text-wrap-s {
+	width: 30%;
+}
+
 .sans {
 		font-family: 'Pragati Narrow', sans-serif;
 }
