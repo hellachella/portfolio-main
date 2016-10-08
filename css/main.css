@@ -20,6 +20,9 @@ html {
  	font-family: 'Pragati Narrow', sans-serif;
 
 }
+dd dt {
+	display: inline-block;
+}
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -179,8 +182,11 @@ body {
 }
 
 p a, blockquote a {
-	color: red;
+	color: darkred;
 	text-decoration: none;
+	font-weight: bold;
+
+
 }
 
 p a:hover, blockquote a:hover{
@@ -409,6 +415,23 @@ footer ul li {
 }
 
 
+.text-right dl, .text-right h2, .text-right h3{
+	text-align: center;
+}
+
+dl dd, dl dt{
+	display: inline;
+}
+
+dt{
+	font-weight: bold;
+	padding:.5em;
+}
+
+dd {
+	font-weight: light;
+}
+
 }
 
 
@@ -416,8 +439,6 @@ footer ul li {
 	.hero {
 		height: 30em;
 	}
-
-
 
 
 }
