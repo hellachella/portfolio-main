@@ -408,6 +408,16 @@ footer ul li {
 	display: inline;
 }
 
+footer a {
+	text-decoration: none;
+	color: darkred;
+}
+
+footer a:hover {
+	background: #e2e2e2;
+	color: #505050;
+}
+
 /* everything before the first breakpoint */
 @media only screen and (max-width: 25em) {
 	.hero {
