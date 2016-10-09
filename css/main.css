@@ -4,10 +4,8 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-@import 'https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans';
+
 @import 'https://fonts.googleapis.com/css?family=Pragati+Narrow';
-@import 'https://fonts.googleapis.com/css?family=Coustard:900';
-@import 'https://fonts.googleapis.com/css?family=Old+Standard+TT|Oswald:700';
 @import 'https://fonts.googleapis.com/css?family=Lora';
 
 html {
@@ -190,7 +188,7 @@ body {
 
 .card a:hover {
 	border-bottom: none;
-	color: #d13236;
+	color: darkred;
 }
 
 p a, blockquote a {
