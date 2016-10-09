@@ -7,6 +7,8 @@
 
 @import 'https://fonts.googleapis.com/css?family=Pragati+Narrow';
 @import 'https://fonts.googleapis.com/css?family=Lora';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
 
 html {
   box-sizing: border-box;
@@ -15,7 +17,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
- 	font-family: 'Pragati Narrow', sans-serif;
+ 	font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -105,9 +107,6 @@ h1 {
 color: #fff;
 }
 
-.oiaf p {
-	font-family: 'Lora', serif;
-}
 
 .oiaf h3, .quotebook h3{
 	border-top: 1px solid #e2e2e2;
@@ -269,9 +268,7 @@ header a:hover, {
 	display: inline;
 }
 
-article p{
-	font-family: "Lora", serif;
-}
+
 
 .intro {
 	list-style-type: none
