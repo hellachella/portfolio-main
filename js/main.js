@@ -1,35 +1,28 @@
-var $f1t = $('.f-1-t');
-var $f1m = $('.f-1-m');
+// Select all the necessary HTML elements
+var $thumbs = $('.thumbnails');
+var $lbImg = $('.lightbox-img');
+var $lb = $('.lightbox');
+var $btnClose = $('.btn-close');
+var $lbHeading = $('.lightbox-heading');
+var $lbDesc = $('.lightbox-desc');
 
-var $f2t = $('.f-2-t');
-var $f2m = $('.f-2-m');
-
-var $f3t = $('.f-3-t');
-var $f3m = $('.f-3-m');
-
-var $f4t = $('.f-4-t');
-var $f4m = $('.f-4-m');
-
-var $f5t = $('.f-5-t');
-var $f5m = $('.f-5-m');
-
-var $f6t = $('.f-6-t');
-var $f6m = $('.f-6-m');
-
-
-
-$f1m.on('mouseover', function () {
-	$f1t.addClass('show');
+// When one of the thumbnails is clicked
+$thumbs.on('click', 'a', function (e) {
+  // Stop the link from going to another page
+  e.preventDefault();
+  // Figure out what the URL is for the larger image
+  var big = $(this).attr('href');
+  // Put the larger image into the <img> tag for the lightbox
+  $lbImg.attr('src', big);
+  // Change the lightbox's data attribute so it becomes visible
+  $lb.attr('data-state', 'visible');
+  // Fill the title and description of the image into the lightbox
+  $lbHeading.html($(this).attr('data-title'));
+  $lbDesc.html($(this).attr('data-desc'));
 });
 
-$f1m.on('mouseout', function () {
-	$f1t.removeClass('show');
-})
-
-$f2m.on('mouseover', function () {
-	$f2t.addClass('show');
+// When the close button is pressed
+$lb.on('click', function () {
+  // Change the lightbox's data attribute so it becomes hidden
+  $lb.attr('data-state', 'hidden');
 });
-
-$f2m.on('mouseout', function () {
-	$f2t.removeClass('show');
-})
