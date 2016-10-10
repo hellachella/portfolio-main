@@ -21,8 +21,13 @@ $thumbs.on('click', 'a', function (e) {
   $lbDesc.html($(this).attr('data-desc'));
 });
 
+
+
 // When the close button is pressed
 $lb.on('click', function () {
   // Change the lightbox's data attribute so it becomes hidden
   $lb.attr('data-state', 'hidden');
 });
+
+
+
