@@ -415,6 +415,13 @@ footer a:hover {
 	color: #505050;
 }
 
+
+.lightbox-img {
+	display: none;
+}
+
+
+
 /* everything before the first breakpoint */
 @media only screen and (max-width: 25em) {
 	.hero {
@@ -439,6 +446,9 @@ footer a:hover {
 	text-align: center;
 }
 
+.lightbox-img {
+	display: none;
+}
 
 }
 
@@ -455,15 +465,79 @@ footer a:hover {
 	margin: 0;
 }
 
-
-.lightbox {
-	display: none;
-}
-
 }
 
 
 @media only screen and (min-width: 38em) {
+
+<!-- lightbox -->
+.thumbnails {
+  margin: 0;
+  padding: 0;
+}
+
+.thumbnails li {
+  display: inline-block;
+}
+
+.thumbnails a {
+  display: block;
+}
+
+.lightbox {
+  position: fixed;
+  left: 90%;
+  right: -100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0);
+  opacity: 0;
+  transition: all 200ms ease-out;
+}
+
+.lightbox[data-state="visible"] {
+  opacity: 1;
+  left: 0;
+  right: 0;
+}
+
+.lightbox-container {
+  position: absolute;
+  left: -150px;
+  right: -150px;
+  bottom: 15px;
+  top: 15px;
+
+
+
+}
+
+.lightbox-img {
+  display: block;
+  max-height: 26em;
+  width: auto;
+  margin: 0 auto;
+  padding: 1em;
+
+  background-color: #fff;
+  box-shadow: 1px 1px 4px #000;
+}
+
+.lightbox-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 2em);
+  transform: translate(-50%, -50%);
+}
+}
+
+
+
+@media only screen and (min-width: 60em) {
+
+
 
 .header-content {
 	bottom: 40%;
@@ -484,77 +558,5 @@ footer a:hover {
 .banner h1 {
 	visibility: visible;
 }
-
-
-.lightbox {
-	display: block;
-}
-}
-@media only screen and (min-width: 60em) {
-
-}
-}
-
-/* test css */
-
-
-.thumbnails {
-  margin: 0;
-  padding: 0;
-}
-
-.thumbnails li {
-  display: inline-block;
-}
-
-.thumbnails a {
-  display: block;
-}
-
-.lightbox {
-  position: fixed;
-  left: 100%;
-  right: 100%;
-  top: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0);
-  opacity: 0;
-  transition: all 300ms ease-out;
-}
-
-.lightbox[data-state="visible"] {
-  opacity: 1;
-  left: 0;
-  right: 0;
-}
-
-.lightbox-container {
-  position: absolute;
-  left: 15px;
-  right: 15px;
-  bottom: 15px;
-  top: 15px;
-  background-color: rgba(0,0,0,0);
-  border-radius: 6px;
-
-}
-
-.lightbox-img {
-  display: block;
-  width: auto;
-  max-height: 32em;
-  margin: 0 auto;
-  padding: 1em;
-  background-color: #fff;
-  border-radius: 5px;
-    box-shadow: -3px 14px 4px rgba(0,0,0,0.25);
-}
-
-.lightbox-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: calc(100% - 2em);
-  transform: translate(-50%, -50%);
 
 }
