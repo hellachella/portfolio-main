@@ -507,8 +507,8 @@ footer a:hover {
   position: fixed;
   top: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0);
-  opacity: 0;
+  background-color: rgba(255,0,0,0);
+  margin: 0 10%;
 
 }
 
@@ -522,21 +522,20 @@ footer a:hover {
   position: absolute;
   display: block;
   max-width: 75%;
-  height: auto;
-  top: 1em;
+  top: 10em;
   bottom: 1em;
-  left: 15%;
-  right: 15%;
+  left: auto;
+  right: auto;
   border-radius: 5px;
-	background-color: rgba(50,50,50,0);
+	background-color: rgba(50,50,50,0.2);
   box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
 }
 
 .lightbox-img {
   display: block;
+  max-width: 100%;
   padding: 0;
-  max-height: 600px;
+  max-height: 400px;
   margin: 0 auto;
-  background: #fff;
 }
 
