@@ -478,14 +478,18 @@ footer a:hover {
 
 .thumbnails li {
   display: inline-block;
-  transition: 100ms ease;
+  transition: 200ms ease;
+  background: rgba(192,192,192,0);
+
 }
 
 .thumbnails a {
   display: block;
 }
 .thumbnails li:hover {
-	background: rgba(192,192,192,1);
+background: rgba(192,192,192,0.3);
+border-radius: 3px;
+
 }
 .lightbox {
   position: fixed;
