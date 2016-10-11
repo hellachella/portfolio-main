@@ -478,12 +478,15 @@ footer a:hover {
 
 .thumbnails li {
   display: inline-block;
+  transition: 100ms ease;
 }
 
 .thumbnails a {
   display: block;
 }
-
+.thumbnails li:hover {
+	padding: .5em;
+}
 .lightbox {
   position: fixed;
   left: 100%;
