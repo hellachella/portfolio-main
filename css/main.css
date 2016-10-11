@@ -248,6 +248,18 @@ header a:hover, {
 }
 
 
+.adobe li{
+	display: inline;
+}
+
+.adobe ul {
+	list-style-type: none;
+}
+
+
+.adobe li img {
+	width: 32px;
+}
 
 
 .nav-lower {
@@ -500,7 +512,7 @@ border-radius: 3px;
   bottom: 0;
   background-color: rgba(0,0,0,0);
   opacity: 0;
-  transition: all 200ms ease;
+  transition: all 400ms ease;
 }
 
 .lightbox[data-state="visible"] {
@@ -508,6 +520,9 @@ border-radius: 3px;
   left: 0;
   right: 0;
 }
+
+
+
 
 .lightbox-container {
   position: absolute;
