@@ -500,6 +500,10 @@ footer a:hover {
   display: inline-block;
 }
 
+.thumbnails li:hover {
+  background: #e2e2e2;
+}
+
 .thumbnails a {
   display: block;
 }
@@ -540,7 +544,7 @@ footer a:hover {
   border-radius: 5px;
   padding:1em;
   background: #e2e2e2;
-  max-height: 34em;
+  max-height: 25em;
 	width: auto;
   margin: 0 auto;
 -webkit-box-shadow: 10px 10px 29px 9px rgba(0,0,0,0.2);
@@ -557,9 +561,6 @@ box-shadow: 10px 10px 29px 9px rgba(0,0,0,0.2);
   background-color: rgba(0,0,0,0);
   padding: 0;
 }
-
-
-<!-- lb -->
 
 
 .border-l {
