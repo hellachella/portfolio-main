@@ -22,6 +22,7 @@ html {
 }
 
 
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -100,10 +101,11 @@ h1 {
 .banner h1 {
 	position: absolute;
 	bottom: 0;
-
- visibility: hidden;
-
+	opacity: .2;
+	visibility: hidden;
+	transition: 2000ms;
 }
+
 
 .banner h1 {
 color: #fff;
@@ -510,7 +512,7 @@ border-radius: 3px;
   left: 100%;
   right: -100%;
   width: 100%;
-  top: 1em;
+  top: 5em;
   bottom: 0;
   background-color: rgba(0,0,0,0);
   opacity: 0;
@@ -542,7 +544,7 @@ box-shadow: 0px 0px 294px 200px rgba(0,0,0,0.01);
 
 .lightbox-img {
   display: block;
-  max-height: 30em;
+ max-height: 50em;
   width: auto;
   margin: 0 auto;
   padding: 1em;
@@ -595,6 +597,42 @@ box-shadow: 0px 0px 294px 200px rgba(0,0,0,0.25);
 
 .banner h1 {
 	visibility: visible;
+}
+
+	.lightbox-img {
+
+  max-height: 40em;
+}
+
+.lightbox {
+	top: 6em;
+}
+
+}
+
+
+@media only screen and (min-width: 90em) {
+
+
+	.lightbox-img {
+
+  max-height: 52em;
+}
+
+.lightbox {
+	top: 5em;
+}
+
+p {
+
+  margin-right: auto;
+  max-width: 60em;
+  padding-left: 1em;
+}
+
+blockquote {
+	padding: 0;
+	margin:0;
 }
 
 }
