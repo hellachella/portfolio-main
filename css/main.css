@@ -21,6 +21,9 @@ html {
 
 }
 
+.clear {
+	clear: both;
+}
 
 
 *, *::before, *::after {
@@ -536,9 +539,9 @@ footer a:hover {
   width: 100%;
   border-radius: 5px;
   padding:1em;
-
+  background: #fff;
   max-height: 34em;
-width: auto;
+	width: auto;
   margin: 0 auto;
 }
 
@@ -608,7 +611,7 @@ p {
 
   margin-right: auto;
   max-width: 60em;
-  padding-left: 1em;
+
 }
 
 blockquote {
