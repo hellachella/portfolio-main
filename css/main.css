@@ -627,7 +627,7 @@ blockquote {
   padding:1em;
 
   max-height: 60em;
-width: auto;
+  width: auto;
   margin: 0 auto;
 }
 }
