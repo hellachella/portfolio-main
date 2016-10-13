@@ -539,10 +539,13 @@ footer a:hover {
   width: 100%;
   border-radius: 5px;
   padding:1em;
-  background: #fff;
+  background: #e2e2e2;
   max-height: 34em;
 	width: auto;
   margin: 0 auto;
+-webkit-box-shadow: 10px 10px 29px 9px rgba(0,0,0,0.2);
+-moz-box-shadow: 10px 10px 29px 9px rgba(0,0,0,0.2);
+box-shadow: 10px 10px 29px 9px rgba(0,0,0,0.2);
 }
 
 .lightbox-content {
