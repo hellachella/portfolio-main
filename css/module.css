@@ -499,7 +499,7 @@ svg.img-flex {
 .btn--ghost:focus,
 .btn--ghost:hover {
   background-color: rgba(0, 0, 0, 0.1);
-  border-color: #000;
+  border-color: #fff;
   color: #000;
 }
 
