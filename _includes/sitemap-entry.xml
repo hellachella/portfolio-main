@@ -1,9 +1,0 @@
----
----
-<url>
-		<loc>https://hellachella.github.io/{{site.baseurl}}{{include.entry.url}}</loc>
-		{% if include.entry.changefrequ %}
-		<changefreq>{{include.entry.changefreq}}</changefreq>
-		{% endif %}
-		<priority>{{include.entry.priority}}</priority>
-</url>
