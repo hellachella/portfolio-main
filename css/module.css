@@ -499,7 +499,7 @@ svg.img-flex {
 .btn--ghost:focus,
 .btn--ghost:hover {
   background-color: rgba(0, 0, 0, 0.1);
-  border-color: #fff;
+  border-color: #000;
   color: #000;
 }
 
@@ -579,7 +579,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 fieldset {
-  border: 1px solid;
+  border: 1px solid #fff;
 }
 
 legend {
