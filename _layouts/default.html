@@ -3,8 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>
-    Chelle — Portfolio
+  <title>{% if page.title %}{{page.title}} · {% endif %}Chelle — Portfolio
   </title>
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
@@ -12,7 +11,9 @@
   <link href="{{site.baseurl}}/css/module.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
-  <link href='favicon.ico' rel='shortcut icon' type='image/x-icon'>
+
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <meta name="description" content="{{page.meta}}">
 </head>
 
 <body>
