@@ -579,7 +579,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 fieldset {
-  border: 1px solid #fff;
+  border: 1px solid #000;
 }
 
 legend {
