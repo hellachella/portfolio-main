@@ -156,12 +156,8 @@ top: auto;
 	max-width: 25px;
 }
 
-.teeth {
-	width: 100%;
-	height: 5em;
-	clear: both;
-	position: relative;
-
+.teeth{
+	height: 2em;
 }
 
 .teeth img {
