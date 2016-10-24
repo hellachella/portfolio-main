@@ -17,7 +17,7 @@
 
 .contact-info a{
 	text-decoration: none;
-	color: #505050;
+	color: darkred;
 
 }
 
@@ -107,6 +107,10 @@ h1 {
 
 .text-grey {
 	color: #505050;
+}
+
+.text-white {
+	color: #fff;
 }
 
 .divider {
@@ -246,6 +250,11 @@ header {
 
 }
 
+.header-logo {
+	width: 40%;
+	opacity: 0.4;
+}
+
 header a, .nav-upper a {
 	text-decoration: none;
 	color: #e2e2e2;
@@ -267,12 +276,14 @@ header a:hover, {
 .hero {
 	height: 24em;
 	background-image: url(../images/portfolio-banner2.jpg);
+		background-image: url(../images/banner.jpg);
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-color: #000;
 }
 
 
