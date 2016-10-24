@@ -15,6 +15,21 @@
 	max-width: 100px;
 }
 
+.contact-info a{
+	text-decoration: none;
+	color: #505050;
+
+}
+
+.contact-info a:hover {
+	text-decoration: none;
+	color: darkred;
+	border-bottom: 1px solid darkred;
+}
+
+.contact-info li{
+	padding: 0;
+}
 
 html {
   box-sizing: border-box;
