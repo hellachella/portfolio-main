@@ -14,7 +14,7 @@
 	min-width: 75px;
 	max-width: 100px;
 	opacity: .8;
-	transition: 100ms ease;
+	transition: 300ms ease;
 }
 
 .nav-logo:hover {
@@ -158,18 +158,6 @@ color: #fff;
 	border-top: 1px solid #e2e2e2;
 }
 
-.arrow-r {
-position: absolute;
-right: 0;
-left: auto;
-bottom: auto;
-top: auto;
-}
-
-.arrow-r img{
-	max-width: 25px;
-}
-
 .teeth{
 	height: 2em;
 }
@@ -182,7 +170,7 @@ top: auto;
 }
 
 .teeth img:hover {
-	transform: rotate(360deg);
+	transform: rotate(-360deg);
 	transition: 900ms ease;
 }
 
@@ -262,14 +250,43 @@ header {
 
 .header-logo {
 	width: 40%;
-	opacity: 0.3;
+	opacity: 0.25;
 	transition: 300ms ease;
 	padding-bottom: 1em;
+
+	-webkit-filter: blur(0px);
+filter: blur(0px);
 }
 
 .header-logo:hover {
-	opacity: .4;
+	opacity: .5;
+-webkit-filter: blur(2px);
+filter: blur(2px);
 
+animation: logo 300ms forwards;
+}
+
+@keyframes logo {
+0% {
+		opacity: .5;
+-webkit-filter: blur(0px);
+filter: blur(0px);
+}
+
+20% {
+		opacity: .6;
+-webkit-filter: blur(5px);
+filter: blur(5px);
+
+}
+
+
+100% {
+		opacity: .5;
+-webkit-filter: blur(0px);
+filter: blur(0px);
+
+}
 }
 
 header a, .nav-upper a {
