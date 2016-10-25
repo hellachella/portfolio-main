@@ -363,6 +363,51 @@ header a:hover, {
 
 .nav-lower li, .nav-upper li {
 	display: inline;
+
+}
+
+.nav-lower li{
+		transition: 300ms ease;
+		opacity: 0.5;
+}
+
+
+
+.nav-lower li:hover {
+animation: navpop 300ms forwards;
+}
+
+@keyframes navpop {
+
+	0% {
+			opacity: .5;
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+	}
+
+
+	13% {
+		-webkit-filter: blur(1px);
+	filter: blur(1px);
+	}
+
+	15% {
+		-webkit-filter: blur(1.5px);
+	filter: blur(1.5px);
+	}
+
+
+	20% {
+			opacity: .95;
+	-webkit-filter: blur(1.5px);
+	filter: blur(1.5px);
+	}
+
+	100% {
+			opacity: .9;
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+	}
 }
 
 
