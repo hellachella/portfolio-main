@@ -13,6 +13,12 @@
 .nav-logo {
 	min-width: 75px;
 	max-width: 100px;
+	opacity: .8;
+	transition: 100ms ease;
+}
+
+.nav-logo:hover {
+	opacity: 1;
 }
 
 .contact-info a{
@@ -397,11 +403,22 @@ footer ul li {
 footer li a {
 	text-decoration: none;
 	color: darkred;
+
 }
 
 footer li a:hover {
 	background: #e2e2e2;
 	color: #505050;
+
+}
+
+footer img {
+	opacity: .8;
+	transition: 200ms ease;
+}
+
+footer img:hover {
+	opacity: 1;
 }
 
 .show {
