@@ -60,7 +60,7 @@ html {
 
 
 .current {
-	background-color: #e2e2e2;
+	border-bottom: 8px solid rgba(0,0,0,0.2);
 	color:#fff;
 }
 
@@ -151,6 +151,11 @@ color: #fff;
 }
 .banner-content li {
 	display: inline;
+	opacity: .6;
+}
+
+.banner-content li:hover {
+	opacity: .7;
 }
 
 
@@ -249,7 +254,7 @@ header {
 }
 
 .header-logo {
-	width: 40%;
+width: 42%;
 	opacity: 0.25;
 	transition: 300ms ease;
 	padding-bottom: 1em;
@@ -371,10 +376,13 @@ header a:hover, {
 		opacity: 0.5;
 }
 
-
+.nav-lower li a:hover{
+	border-bottom: 8px solid rgba(255,255,255,0.2);
+}
 
 .nav-lower li:hover {
 animation: navpop 300ms forwards;
+
 }
 
 @keyframes navpop {
