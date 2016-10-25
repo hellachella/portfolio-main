@@ -273,13 +273,17 @@ animation: logo 300ms forwards;
 filter: blur(0px);
 }
 
+
+13% {
+	-webkit-filter: blur(5px);
+filter: blur(5px);
+}
 20% {
-		opacity: .6;
+		opacity: .9;
 -webkit-filter: blur(5px);
 filter: blur(5px);
 
 }
-
 
 100% {
 		opacity: .5;
