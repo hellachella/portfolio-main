@@ -139,6 +139,14 @@ h1 {
 color: #fff;
 }
 
+.banner-content ul{
+	list-style-type: none;
+	margin: 0;
+}
+.banner-content li {
+	display: inline;
+}
+
 
 .oiaf h3, .quotebook h3{
 	border-top: 1px solid #e2e2e2;
@@ -248,7 +256,14 @@ header {
 
 .header-logo {
 	width: 40%;
-	opacity: 0.4;
+	opacity: 0.3;
+	transition: 300ms ease;
+	padding-bottom: 1em;
+}
+
+.header-logo:hover {
+	opacity: .4;
+
 }
 
 header a, .nav-upper a {

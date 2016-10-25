@@ -869,11 +869,11 @@ input:focus,
 textarea:focus,
 button:focus,
 select:focus {
-  outline: 3px solid #000;
+  outline: none;
 }
 
 a:focus, [tabindex="0"]:focus {
-  outline-offset: 3px;
+  outline-offset: 1px;
 }
 
 .skip-links {
