@@ -10,6 +10,8 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 
+
+
 .nav-logo {
 	min-width: 75px;
 	max-width: 100px;
@@ -45,6 +47,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
  	font-family: 'Open Sans', sans-serif;
+
 
 }
 
@@ -90,6 +93,8 @@ h1 {
 
 .main-body {
 	padding: 0 1em;
+	max-width: 80em;
+	margin: 0 auto;
 }
 .red {
 	background-color: rgba(255,0,0,.5)
@@ -248,6 +253,8 @@ p a:hover, blockquote a:hover{
 
 }
 
+
+
 header {
 	position: relative;
 	background-color: #000;
@@ -255,11 +262,10 @@ header {
 }
 
 .header-logo {
-width: 42%;
+	width: 42%;
 	opacity: 0.25;
 	transition: 300ms ease;
-	padding-bottom: 1em;
-
+	padding: 1em;
 	-webkit-filter: blur(1px);
 filter: blur(1px);
 }
