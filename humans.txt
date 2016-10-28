@@ -1,0 +1,15 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Chelle Lorenzen
+Site: http://chellelorenzen.com
+Behance: http://www.behance.net/hellachella
+Instagram: https://www.instagram.com/hellachella79/
+twitter: @hellachella
+
+---
+
+# TECHNOLOGY
+
+- Sublime Text 3
