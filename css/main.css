@@ -91,7 +91,7 @@ h1 {
 }
 
 .main-body {
-	padding: 0 1em;
+
 	max-width: 72em;
 	margin: 0 auto;
 }
@@ -339,7 +339,7 @@ header a:hover, {
   background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-color: #000;
+	background-color: #fff;
 
 }
 
