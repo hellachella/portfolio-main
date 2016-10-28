@@ -1,3 +1,2 @@
-markdown: redcarpet
-baseurl: /portfolio-main
+baseurl: "https://hellachella.github.io/portfolio-main"
 exclude: ['README.md']
