@@ -94,7 +94,7 @@ h1 {
 
 	max-width: 72em;
 	margin: 0 auto;
-	padding: 1em;
+	padding: 0 1em;
 }
 .red {
 	background-color: rgba(255,0,0,.5)
