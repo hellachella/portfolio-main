@@ -23,3 +23,10 @@
 }
 
 
+[data-state="playing"] .btn {
+  display: none;
+}
+
+[data-state="playing"]:hover .btn {
+  display: inline-block;
+}
