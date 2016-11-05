@@ -20,7 +20,15 @@ html {
 
 }
 
+article a {
+	text-decoration: none;
+	color: darkred;
 
+}
+
+article a:hover{
+		border-bottom: 1px dashed darkred;
+}
 .nav-logo {
 	min-width: 75px;
 	max-width: 100px;
