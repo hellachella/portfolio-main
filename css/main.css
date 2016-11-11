@@ -70,8 +70,6 @@ article a:hover{
   box-sizing: inherit;
 }
 
-
-
 .current {
 	border-bottom: 8px solid rgba(0,0,0,0.2);
 	color:#fff;
@@ -481,7 +479,10 @@ hr {
 	transition: 200ms ease;
 }
 
-
+.footer-p li a img:hover {
+	background-color: #fff;
+	border-bottom: #fff;
+}
 
 footer {
 	clear: both;
@@ -519,6 +520,11 @@ footer img {
 footer img:hover {
 	opacity: 1;
 }
+
+li.footer-logo {
+	border-bottom: none;
+}
+
 
 .show {
 	opacity: 1;
