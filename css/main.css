@@ -24,9 +24,10 @@ article a {
 
 }
 
-ul, ul li{
+ul {
 	list-style-type: none;
 }
+
 
 article a:hover{
 		border-bottom: 1px dashed darkred;
