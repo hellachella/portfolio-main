@@ -113,7 +113,7 @@ svg.img-flex {
 .list-group-inline::after,
 .list-group--inline::before,
 .list-group--inline::after {
-  content: "";
+
   display: table;
 }
 
