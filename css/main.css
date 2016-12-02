@@ -24,6 +24,10 @@ article a {
 
 }
 
+a:focus {
+	outline: 2px solid #ccc;
+}
+
 ul {
 	list-style-type: none;
 }
