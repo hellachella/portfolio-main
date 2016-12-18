@@ -7,9 +7,15 @@ Site: http://chellelorenzen.com
 Behance: http://www.behance.net/hellachella
 Instagram: https://www.instagram.com/hellachella79/
 twitter: @hellachella
+email: hello@chellelorenzen.com
 
 ---
 
 # TECHNOLOGY
 
 - Sublime Text 3
+
+# JOKE
+
+- I just saw a riveting documentary about how ships are held together.
+
