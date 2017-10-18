@@ -1,0 +1,199 @@
+html {
+  font-family: 'Didact Gothic', sans-serif;
+  background-color: #f2f2eb;
+
+font-kerning: normal;
+transition: all 350ms linear;
+}
+
+
+
+.inks {
+  z-index: -100003;
+  position: fixed;
+}
+
+.font-1 {
+    font-family: 'Didact Gothic', sans-serif;
+}
+.font-2 {
+font-family: 'Cantata One', serif;
+font-family: 'Bentham', serif;
+font-family: 'IM Fell French Canon', serif;
+font-kerning: normal;
+  font-variant-ligatures: normal;
+}
+.border-yellow {
+  border-left: 20px solid #edcf62;
+}
+.kern {
+font-kerning: normal;
+}
+.quotes {
+  text-align: center;
+}
+.hero {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(to top, rgba(0, 0, 0, .8),
+    rgba(0, 0, 0, 0) 100%),
+    url("../images/img-2/temp-banner.jpg") no-repeat center bottom / cover
+    #fff;
+
+}
+.close-menu, .open-menu {
+  cursor: pointer;
+
+}
+.close-menu {
+    top: 1em;
+    right: .5em;
+}
+body {
+  position: relative;
+
+}
+.menu {
+    top: -1.5em;
+    z-index: 10000;
+    position: fixed;
+    width: 100%;
+    transition: all 200ms ease;
+}
+.menu li {
+  letter-spacing: 2px;
+  background-color: #464646;
+  font-weight: 600;
+  line-height: 1.5;
+    width: 100%;
+}
+
+.menu li:hover {
+  opacity: 1;
+}
+.close-menu:hover {
+color: red;
+}
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid transparent;
+
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: #edcf62;
+  border-bottom: 1px #edcf62;
+
+}
+
+.color-2 {
+  background-color: #464646;
+}
+
+.color-3 {
+  background-color: #343333;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-red {
+  color: hotpink;
+}
+
+.text-p {
+  color: #464646;
+}
+
+
+
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-3 {
+  opacity: .3;
+}
+
+
+.nav-2 {
+  background-color: #464646;
+  color: white;
+}
+
+.nav-text {
+    letter-spacing: 2px;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.floaty {
+  animation: floaty 3500ms infinite alternate ease-in-out;
+  transform-origin: center;
+
+}
+
+
+@keyframes floaty {
+  0% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+
+
+@media only screen and (min-width: 60em) {
+  .quotes {
+    text-align: left;
+  }
+
+  .birdy {
+    padding-top: 200px;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav-text {
+    text-align: left;
+  }
+  .menu {
+    top: 100%;
+    display: inline-block !important;
+  }
+
+
+}
+
+@media only screen and (min-width: 25em) {
+  .birdy {
+    padding-top: 100px;
+  }
+}
+
+.label {
+  opacity:0;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: all 200ms ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: all 200ms ease;
+}
+
+.letterspace {
+  letter-spacing: 2px;
+}

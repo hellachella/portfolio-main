@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}} · {% endif %}Chelle — Portfolio
+  </title>
+  <meta name="description" content="{% if page.meta %}{{page.meta}}{% endif %} Chelle">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta name="google-site-verification" content="RTAbS9mNZpfP9lD1OC2SQB7dII6YLxPGYYSfcS0dFhY" />
+  <link href="{{site.baseurl}}/css/type-2.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/grid-2.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/module-2.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main-2.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cantata+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bentham" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bentham|IM+Fell+French+Canon" rel="stylesheet">
+
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <meta name="description" content="{{page.meta}}">
+
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{% if page.title %}{{page.title}} · {% endif %}Chelle — Portfolio">
+  <meta property="og:url" content="http://chellelorenzen.com">
+  <meta property="og:image" content="images/soccard.jpg">
+  <meta property="og:site_name" content="Chelle Lorenzen · Portfolio">
+  <meta property="og:description" content="{{page.meta}}">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.title %}{{page.title}} · {% endif %}Chelle — Portfolio">
+  <meta name="twitter:url" content="http://chellelorenzen.com">
+  <meta name="twitter:description" content="{% if page.meta %}{{page.meta}}{% endif %} Chelle">
+  <meta name="twitter:image" content="image/soccard.jpg">
+
+</head>
+
+
+
+<body class="border-yellow" itemref="data-author" itemscope itemtype="https://schema.org/WebSite">
+
+{% include navbar-2.html %}
+
+
+{{content}}
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+<script src="{{site.baseurl}}/js/main-2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
+  <script src="{{site.baseurl}}/js/localscroll.js"></script>
+
+
+</body>
+</html>
