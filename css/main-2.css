@@ -5,7 +5,12 @@ html {
 font-kerning: normal;
 transition: all 350ms linear;
 }
+.body {
 
+}
+.ink {
+
+}
 
 .inks {
   z-index: -100003;
@@ -51,7 +56,9 @@ font-kerning: normal;
 }
 body {
   position: relative;
-
+  background-image: url("../images/img-2/inks.png");
+  background-size: cover;
+  background-position: center top;
 }
 .menu {
     top: -1.5em;
