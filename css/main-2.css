@@ -5,7 +5,9 @@ html {
 font-kerning: normal;
 transition: all 350ms linear;
 }
-
+.quotes {
+  padding-left: 2em;
+}
 
 
 .inks {
