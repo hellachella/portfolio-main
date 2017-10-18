@@ -10,6 +10,7 @@ transition: all 350ms linear;
 .inks {
   z-index: -100003;
   position: fixed;
+  top: 0;
 }
 
 .font-1 {
