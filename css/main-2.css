@@ -5,9 +5,16 @@ html {
 font-kerning: normal;
 transition: all 350ms linear;
 }
-.body {
-
+.menu-l a{
+  text-decoration: none;
+  color: #fff;
 }
+
+.menu-l a:target {
+  display: none;
+}
+
+
 .ink {
 
 }
@@ -22,11 +29,41 @@ transition: all 350ms linear;
     font-family: 'Didact Gothic', sans-serif;
 }
 .font-2 {
-font-family: 'Cantata One', serif;
+/*font-family: 'Cantata One', serif;
 font-family: 'Bentham', serif;
 font-family: 'IM Fell French Canon', serif;
+*/
+font-family: 'Abril Fatface';
+font-family: 'Yeseva One', cursive;
+
 font-kerning: normal;
+
   font-variant-ligatures: normal;
+}
+
+.bullshit {
+  background:
+    url("../images/img-2/paper-texture.png") center / cover no-repeat
+    #ff48b0;
+  background-blend-mode: multiply;
+}
+.font-3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-kerning: normal;
+}
+.font-4 {
+  font-family: 'Archivo Black';
+  letter-spacing: 3px;
+  font-kerning: normal;
+  font-weight: normal;
+  color: yellow;
+}
+
+
+kern-1 {
+  letter-spacing: -3px;
 }
 .border-yellow {
   border-left: 20px solid #edcf62;
@@ -58,7 +95,7 @@ body {
   position: relative;
   background-image: url("../images/img-2/inks.png");
   background-size: cover;
-  background-position: center top;
+  background-position: center;
 }
 .menu {
     top: -1.5em;
@@ -115,7 +152,12 @@ color: red;
   color: #464646;
 }
 
-
+.line-height-sm {
+  line-height: 1.2;
+}
+.line-height-xs {
+  line-height: 1;
+}
 
 
 .opacity-0 {
@@ -137,9 +179,16 @@ color: red;
 }
 
 .pink {
-  background-color: pink;
+  background-color: #ff48b0;
 }
 
+.crimson-text {
+  color: #E45D50;
+}
+
+.indigo-text {
+  color: #F2CDCF;
+}
 .floaty {
   animation: floaty 3500ms infinite alternate ease-in-out;
   transform-origin: center;
