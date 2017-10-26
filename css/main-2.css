@@ -1,11 +1,11 @@
 html {
   font-family: 'Didact Gothic', sans-serif;
   background-color: #f2f2eb;
-
-font-kerning: normal;
-transition: all 350ms linear;
+  font-kerning: normal;
+  transition: all 350ms linear;
 }
-.menu-l a{
+
+.menu-l a {
   text-decoration: none;
   color: #fff;
 }
@@ -14,10 +14,7 @@ transition: all 350ms linear;
   display: none;
 }
 
-
-.ink {
-
-}
+.ink {}
 
 .inks {
   z-index: -100003;
@@ -26,33 +23,39 @@ transition: all 350ms linear;
 }
 
 .font-1 {
-    font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
 }
+
 .font-2 {
-/*font-family: 'Cantata One', serif;
+  /*font-family: 'Cantata One', serif;
 font-family: 'Bentham', serif;
 font-family: 'IM Fell French Canon', serif;
 */
-font-family: 'Abril Fatface';
-font-family: 'Yeseva One', cursive;
-
-font-kerning: normal;
-
+  font-family: 'Abril Fatface';
+  font-family: 'Yeseva One', cursive;
+  font-kerning: normal;
   font-variant-ligatures: normal;
 }
 
 .bullshit {
-  background:
-    url("../images/img-2/paper-texture.png") center / cover no-repeat
-    #ff48b0;
+  background: url("../images/img-2/paper-texture.png") center / cover no-repeat #ff48b0;
   background-blend-mode: multiply;
 }
+
+.bullshit-img {
+  background: url("../images/img-2/light3.jpg") center / cover no-repeat;
+  min-height: 3em;
+  min-width: 50%;
+  padding: 5em 0;
+}
+
 .font-3 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   letter-spacing: 1px;
   font-kerning: normal;
 }
+
 .font-4 {
   font-family: 'Archivo Black';
   letter-spacing: 3px;
@@ -61,75 +64,78 @@ font-kerning: normal;
   color: yellow;
 }
 
-
 kern-1 {
   letter-spacing: -3px;
 }
+
 .border-yellow {
   border-left: 20px solid #edcf62;
 }
+
 .kern {
-font-kerning: normal;
+  font-kerning: normal;
 }
+
 .quotes {
   text-align: center;
 }
+
 .hero {
   width: 100%;
   height: 600px;
-  background: linear-gradient(to top, rgba(0, 0, 0, .8),
-    rgba(0, 0, 0, 0) 100%),
-    url("../images/img-2/temp-banner.jpg") no-repeat center bottom / cover
-    #fff;
-
+  background: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0) 100%), url("../images/img-2/temp-banner.jpg") no-repeat center bottom / cover #fff;
 }
+
 .close-menu, .open-menu {
   cursor: pointer;
+}
 
-}
 .close-menu {
-    top: 1em;
-    right: .5em;
+  top: 1em;
+  right: .5em;
 }
+
 body {
   position: relative;
   background-image: url("../images/img-2/inks.png");
   background-size: cover;
   background-position: center;
 }
+
 .menu {
-    top: -1.5em;
-    z-index: 10000;
-    position: fixed;
-    width: 100%;
-    transition: all 200ms ease;
+  top: -1.5em;
+  z-index: 10000;
+  position: fixed;
+  width: 100%;
+  transition: all 200ms ease;
 }
+
 .menu li {
   letter-spacing: 2px;
   background-color: #464646;
   font-weight: 600;
   line-height: 1.5;
-    width: 100%;
+  width: 100%;
 }
 
 .menu li:hover {
   opacity: 1;
 }
+
 .close-menu:hover {
-color: red;
+  color: red;
 }
+
 .menu a {
   text-decoration: none;
   color: #fff;
   border-bottom: 1px solid transparent;
-
 }
 
 .menu a:hover {
   text-decoration: none;
   color: #edcf62;
   border-bottom: 1px #edcf62;
-
 }
 
 .color-2 {
@@ -155,10 +161,10 @@ color: red;
 .line-height-sm {
   line-height: 1.2;
 }
+
 .line-height-xs {
   line-height: 1;
 }
-
 
 .opacity-0 {
   opacity: 0;
@@ -168,14 +174,13 @@ color: red;
   opacity: .3;
 }
 
-
 .nav-2 {
   background-color: #464646;
   color: white;
 }
 
 .nav-text {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 .pink {
@@ -189,12 +194,11 @@ color: red;
 .indigo-text {
   color: #F2CDCF;
 }
+
 .floaty {
   animation: floaty 3500ms infinite alternate ease-in-out;
   transform-origin: center;
-
 }
-
 
 @keyframes floaty {
   0% {
@@ -205,23 +209,17 @@ color: red;
   }
 }
 
-
-
 @media only screen and (min-width: 60em) {
   .quotes {
     text-align: left;
     padding-left: 4em;
-
-
   }
-
   .birdy {
     padding: 200px 0 75px;
   }
 }
 
 @media only screen and (min-width: 38em) {
-
   .nav-text {
     text-align: left;
   }
@@ -229,8 +227,6 @@ color: red;
     top: 100%;
     display: inline-block !important;
   }
-
-
 }
 
 @media only screen and (min-width: 25em) {
@@ -240,7 +236,7 @@ color: red;
 }
 
 .label {
-  opacity:0;
+  opacity: 0;
 }
 
 .fade-in {
