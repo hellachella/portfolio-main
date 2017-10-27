@@ -1,6 +1,6 @@
 html {
   font-family: 'Didact Gothic', sans-serif;
-  background-color: #f2f2eb;
+
   font-kerning: normal;
   transition: all 350ms linear;
 }
@@ -43,10 +43,10 @@ font-family: 'IM Fell French Canon', serif;
 }
 
 .bullshit-img {
-  background: url("../images/img-2/light3.jpg") center / cover no-repeat;
+  background: url("../images/img-2/light3.jpg") right center / cover no-repeat;
   min-height: 3em;
-  min-width: 50%;
-  padding: 5em 0;
+  min-width: 30%;
+
 }
 
 .font-3 {
@@ -64,12 +64,56 @@ font-family: 'IM Fell French Canon', serif;
   color: yellow;
 }
 
+.font-5 {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 6.5em;
+  line-height: 1em;
+
+}
+
+.font-6 {
+  font-family: 'Dosis', sans-serif;
+  font-weight:600;
+  color: #464646;
+}
+
+.lines {
+    background-image: repeating-linear-gradient(20deg, #e2e2e2, #e2e2e2 5px, #464646 5px, #464646 8px);
+  }
+
+.font-7 {
+  font-family: 'Cutive Mono', monospace;
+}
+.dosis {
+  background-color: #e2e2e2;
+  hyphens: auto;
+}
+
+.border-blk {
+  border: 5px solid yellow;
+}
+
+.multiply {
+  mix-blend-mode: multiply;
+}
+.sixcaps {
+  background-color: yellow;
+
+}
+
+.black {
+  background-color: #000;
+}
 kern-1 {
   letter-spacing: -3px;
 }
 
 .border-yellow {
   border-left: 20px solid #edcf62;
+}
+
+.text-blue {
+  color: blue;
 }
 
 .kern {
@@ -90,16 +134,20 @@ kern-1 {
   cursor: pointer;
 }
 
+
 .close-menu {
   top: 1em;
   right: .5em;
 }
 
+.red {
+  background-color: #fd4d26;
+}
+
 body {
   position: relative;
-  background-image: url("../images/img-2/inks.png");
-  background-size: cover;
-  background-position: center;
+  background-color: #f2f2eb;
+
 }
 
 .menu {
@@ -151,9 +199,8 @@ body {
 }
 
 .text-red {
-  color: hotpink;
+  color: #fd4d26;
 }
-
 .text-p {
   color: #464646;
 }
@@ -215,7 +262,7 @@ body {
     padding-left: 4em;
   }
   .birdy {
-    padding: 200px 0 75px;
+
   }
 }
 
@@ -227,11 +274,17 @@ body {
     top: 100%;
     display: inline-block !important;
   }
+
+  .bullshit-img {
+    padding: 0;
+  }
 }
 
 @media only screen and (min-width: 25em) {
-  .birdy {
-    padding: 100px 0 50px;
+
+
+  .bullshit-img {
+    padding: 6em 0;
   }
 }
 
