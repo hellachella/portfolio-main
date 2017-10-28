@@ -93,6 +93,17 @@ font-family: 'IM Fell French Canon', serif;
   border: 5px solid yellow;
 }
 
+.bag {
+background-image: linear-gradient(to bottom, #dba234 0%, #dba234 50%, #D9D1C7 50%, #D9D1C7 100%);
+background-image: linear-gradient(to bottom, #fdca9e 0%, #fdca9e 50%, #5e5047 50%, #5e5047 100%);
+}
+
+.corner-r {
+  border-radius: 5px;
+  color: #fdca9e
+}
+
+
 .multiply {
   mix-blend-mode: multiply;
 }
